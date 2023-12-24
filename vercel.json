@@ -1,11 +1,11 @@
 {
   "version": 2,
   "env": {
-    "PORT": 5000,
+    "PORT": "5000",
     "DB_NAME": "jservice",
     "DB_HOST": "localhost",
     "DB_USERNAME": "postgres",
-    "DB_PORT": 5432,
+    "DB_PORT": "5432",
     "DB_PASSWORD": "bekaroot"
   },
   "builds": [
