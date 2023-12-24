@@ -17,10 +17,9 @@ async function bootstrap() {
 
 	const document = SwaggerModule.createDocument(app, config)
 
-	SwaggerModule.setup('api/docs', app, document)
+	SwaggerModule.setup('docs', app, document)
 
 	app.enableCors()
-	app.setGlobalPrefix('api')
 	app.useGlobalPipes(new ValidationPipe())
 	await app.listen(PORT, () => console.log(`Server listening on port ${PORT}`))
 }
